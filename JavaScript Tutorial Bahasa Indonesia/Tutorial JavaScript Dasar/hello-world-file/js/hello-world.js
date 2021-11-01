@@ -1,0 +1,4 @@
+document.writeln("Hello World")
+/*
+
+*/

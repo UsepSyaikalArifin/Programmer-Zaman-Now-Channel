@@ -1,0 +1,5 @@
+document.writeln(100)
+document.writeln("<br>")
+document.writeln(100.125)
+document.writeln("<br>")
+document.writeln(0b1001)
