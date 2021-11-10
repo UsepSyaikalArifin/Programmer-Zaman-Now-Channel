@@ -30,3 +30,10 @@ document.writeln(`<p>${Number(`1.1Text`)}</p>`)
 document.writeln(`<p>${Number(`1.1Text`)}</p>`)
 document.writeln(`<p>${Number(`T1.1Text`)}</p>`)
 document.writeln(`<p>${Number(`T1.1Text`)}</p>`)
+
+// 3. Operasi pada NaN
+let first = Number(`Salah`)
+let value3 = 1
+const total2 = first + value3
+document.writeln(`<p>${total2}</p>`)
+document.writeln(`<p>${isNaN(first)}</p>`)
