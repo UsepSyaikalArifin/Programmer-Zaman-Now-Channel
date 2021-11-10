@@ -35,3 +35,5 @@ document.writeln(`<p>${fName}</p>`)
 document.writeln(`<p>${fName}</p>`)
 document.writeln(`<p>${fName}</p>`)
 document.writeln(`<p>${fName}</p>`)
+
+// 5. Kata kunci var -> let || const
