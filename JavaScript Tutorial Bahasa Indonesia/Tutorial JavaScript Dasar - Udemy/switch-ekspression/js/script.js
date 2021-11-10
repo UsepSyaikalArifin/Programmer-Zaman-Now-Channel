@@ -1,4 +1,4 @@
-let nilai = `C`
+let nilai = `E`
 switch(nilai){
     case `A`:
         console.info(`Wow anda lulus dengan baik`)
@@ -13,3 +13,4 @@ switch(nilai){
     default:
         console.info(`Mungkin anda salah jurusan`)
 }
+
