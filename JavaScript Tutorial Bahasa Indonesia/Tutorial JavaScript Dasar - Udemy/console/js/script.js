@@ -1,0 +1,5 @@
+console.debug(`Ini adalah debug`)
+console.info(`Ini adalah info`)
+console.log(`Ini adalah Info`)
+console.warn(`Ini adalah peringatan`)
+console.error(`Ini adalah peringatan`)
