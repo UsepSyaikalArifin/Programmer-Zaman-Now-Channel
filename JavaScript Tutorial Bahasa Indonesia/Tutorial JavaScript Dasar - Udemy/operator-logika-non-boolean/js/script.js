@@ -1,0 +1,6 @@
+console.info(`Hello` || ``)
+console.info(`` || `Hello`)
+console.info(undefined || null)
+console.info(0 || NaN)
+console.info(null || undefined)
+console.info(NaN || 0)
