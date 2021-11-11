@@ -11,4 +11,5 @@ say(`Usep`)
 function giveMeName(nama, callback) {
     callback(nama)
 }
-giveMeName(`Jagoan`,say)
+giveMeName(`Jagoan 2`,sayHello)
+giveMeName(`Jagoan`, say)
