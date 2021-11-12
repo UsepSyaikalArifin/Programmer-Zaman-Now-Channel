@@ -23,10 +23,10 @@ asep.sayHello(`Ma'ruf Amin`)
 // 2. Bentuk ke - 2
 class Employee2{
     constructor(firstName){
-        this.name = firstName
+        this.firstName = firstName
     }
     sayHello(name){
-        document.writeln(`<p>Hello ${name} My name is Employee2 ${this.name}`)
+        document.writeln(`<p>Hello ${name} My name is Employee2 ${this.firstName}`)
     }
 }
 
@@ -36,12 +36,12 @@ class Manager2 extends Employee2{
         this.lastName = lastName
     }
     sayHello(name){
-        document.writeln(`<p>Hello ${name} My name is Manager2 ${this.firstName} ${this/this.lastName}</p>`)
+        document.writeln(`<p>Hello ${name} My name is Manager2 ${this.firstName} ${this.lastName}</p>`)
     }
 }
 
 const usep2 = new Employee2(`Prof Dr.Eng Usep Syaikal M.Sc M.Eng Ph.D`)
-const asep2 = new Employee2(`Prof Dr.Eng Asep Syaikal M.Sc M.Eng Ph.D`)
+const asep2 = new Manager2(`Prof Dr.Eng Asep Syaikal M.Sc M.Eng Ph.D`,`Jagoan`)
 
 usep2.sayHello(`Jack`)
 asep2.sayHello(`Jacob`)
