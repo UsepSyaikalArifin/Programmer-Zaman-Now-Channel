@@ -58,3 +58,27 @@
     console.info(source.indexOf(5))
     console.info(source.lastIndexOf(5))
 }
+
+// 5. Array Filter
+{
+    const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    const ganjil = number.filter(value => value % 2 === 1)
+    const genap = number.filter(value => value % 2 === 0)
+    console.info(ganjil)
+    console.info(genap)
+}
+
+// 6. Array Transform
+{
+    const names = `Usep Syaikal Arifin`.split(` `)
+    const namesUpper = names.map(value => value.toUpperCase())
+    const namesReduce = names.reduce((before, value) => before + ` ` + value)
+    const namesReduceRight = names.reduceRight((before, value) => before + ` ` + value)
+    console.info(namesUpper)
+    console.info(namesReduce)
+    console.info(namesReduceRight)
+
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 9, 10]
+    console.info(numbers.reduce((result, value) => result + value))
+    console.info(numbers.reduceRight((result, value) => result + value))
+}
