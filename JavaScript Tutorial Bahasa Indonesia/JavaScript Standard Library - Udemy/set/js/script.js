@@ -1,0 +1,11 @@
+const set = new Set()
+set.add(`Usep`)
+set.add(`Usep`)
+set.add(`Syaikal`)
+set.add(`Usep`)
+set.add(`Arifin`)
+set.add(`Syaikal`)
+set.add(`Arifin`)
+
+console.info(set)
+set.forEach(value => console.info(value))
