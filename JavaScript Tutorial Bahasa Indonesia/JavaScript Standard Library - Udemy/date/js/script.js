@@ -38,7 +38,7 @@
 {
     console.info(`===X===X===X===Date Getter & Setter===X===X===X===X===`)
     const date = new Date()
-    date.setFullYear(2020)
+    date.setFullYear(2021)
     console.info(date)
     console.info(date.getFullYear())
     console.info(date.getMonth())
