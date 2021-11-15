@@ -5,4 +5,4 @@ export function sayGoodBye(name){
     console.info(`GoodBYe ${name}`)
 }
 
-const name = `Prof Dr.Eng Usep Syaikal Arifin, M.Eng, M.Sc, Ph.D`
+export const name = `Prof Dr.Eng Usep Syaikal Arifin, M.Eng, M.Sc, Ph.D`
